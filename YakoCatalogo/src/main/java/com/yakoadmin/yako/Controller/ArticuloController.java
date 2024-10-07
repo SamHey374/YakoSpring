@@ -25,7 +25,7 @@ public class ArticuloController {
         return articuloService.getArticulo(sku);
     }
 
-
+    /*
     @PostMapping("/registrarActualizarArticulo")
     public Articulo addArticulo(@RequestBody Articulo articuloModel){
         return articuloService.saveOrUpdate(articuloModel);
@@ -35,6 +35,6 @@ public class ArticuloController {
     public void deleteArticulo(@RequestParam String sku){
         articuloService.delete(sku);
     }
-
+    */
 
 }

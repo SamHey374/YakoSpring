@@ -15,12 +15,14 @@ public class CarritoController {
     @Autowired
     private CarritoService carritoService;
 
+    /*
     @GetMapping("/obtenerCarritos")
     public List<Carrito> getCarritos(){
         return carritoService.getAll();
     }
+    */
 
-    @GetMapping("/obtenerCarritoPorCliente")
+    @GetMapping("/obtenerCarritoDelCliente")
     public Carrito getCarritoPerCliente(@RequestParam String userName){
         return carritoService.getCarritoPerCliente(userName);
     }

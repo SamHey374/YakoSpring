@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ebdcc207-fbf4-4a54-aa0d-1baed146ed99" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yakoadmin/yako/Controller/ArticuloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/main/java/com/yakoadmin/yako/Controller/ArticuloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yakoadmin/yako/Controller/CarritoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/main/java/com/yakoadmin/yako/Controller/CarritoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yakoadmin/yako/Controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/main/java/com/yakoadmin/yako/Controller/ClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yakoadmin/yako/DTO/CompraDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/main/java/com/yakoadmin/yako/DTO/CompraDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yakoadmin/yako/DTO/TarjetaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/main/java/com/yakoadmin/yako/DTO/TarjetaDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yakoadmin/yako/Models/Articulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/main/java/com/yakoadmin/yako/Models/Articulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yakoadmin/yako/Models/Carrito.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/main/java/com/yakoadmin/yako/Models/Carrito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yakoadmin/yako/Models/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/main/java/com/yakoadmin/yako/Models/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yakoadmin/yako/Models/Compras.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/main/java/com/yakoadmin/yako/Models/Compras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yakoadmin/yako/Models/Tarjeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/main/java/com/yakoadmin/yako/Models/Tarjeta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yakoadmin/yako/Repository/ArticuloRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/main/java/com/yakoadmin/yako/Repository/ArticuloRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yakoadmin/yako/Repository/CarritoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/main/java/com/yakoadmin/yako/Repository/CarritoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yakoadmin/yako/Repository/ClienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/main/java/com/yakoadmin/yako/Repository/ClienteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yakoadmin/yako/Repository/ComprasRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/main/java/com/yakoadmin/yako/Repository/ComprasRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yakoadmin/yako/Repository/TarjetaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/main/java/com/yakoadmin/yako/Repository/TarjetaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yakoadmin/yako/Service/ArticuloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/main/java/com/yakoadmin/yako/Service/ArticuloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yakoadmin/yako/Service/CarritoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/main/java/com/yakoadmin/yako/Service/CarritoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yakoadmin/yako/Service/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/main/java/com/yakoadmin/yako/Service/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yakoadmin/yako/Service/CompraService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/main/java/com/yakoadmin/yako/Service/CompraService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yakoadmin/yako/Service/TarjetaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/main/java/com/yakoadmin/yako/Service/TarjetaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yakoadmin/yako/YakoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/main/java/com/yakoadmin/yako/YakoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yakoadmin/yako/YakoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YakoCatalogo/src/test/java/com/yakoadmin/yako/YakoApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2n39MdhZdJedMh5lgDEIbFh3Etf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Back&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shy37/Proyectos/GitHub/SpringBoot/YakoAdministracion&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebdcc207-fbf4-4a54-aa0d-1baed146ed99" name="Changes" comment="" />
+      <created>1728190845535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728190845535</updated>
+    </task>
+    <servers />
+  </component>
+</project>
