@@ -1,0 +1,461 @@
+{
+	"info": {
+		"_postman_id": "27869a78-0bcc-43ab-b711-07d16375f59b",
+		"name": "Catalogo API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38733957",
+		"_collection_link": "https://yako-develop.postman.co/workspace/Yako-Develop-Workspace~4df41a8c-2fe8-40ed-84dc-9000fbfa773b/collection/38733957-27869a78-0bcc-43ab-b711-07d16375f59b?action=share&source=collection_link&creator=38733957"
+	},
+	"item": [
+		{
+			"name": "ObtenerArticulos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/articulos/consultarArticulos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"articulos",
+						"consultarArticulos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ConsultarArticulo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/articulos/consultarArticulo?sku=YAK0004CER",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"articulos",
+						"consultarArticulo"
+					],
+					"query": [
+						{
+							"key": "sku",
+							"value": "YAK0004CER"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ConsultarArticulosPorCategoria",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/articulos/consultarPorCategoria?categoria=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"articulos",
+						"consultarPorCategoria"
+					],
+					"query": [
+						{
+							"key": "categoria",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ConsultarCategorias",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/categorias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categorias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ConsultarClientes",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/clientes/obtenerClientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"clientes",
+						"obtenerClientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ConsultarUnCliente",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/clientes/obtenerCliente?userName=sos.dan.2024",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"clientes",
+						"obtenerCliente"
+					],
+					"query": [
+						{
+							"key": "userName",
+							"value": "sos.dan.2024"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AgregarCliente",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\": \"hey.jas.2024\",\r\n    \"password\": \"1234567\",\r\n    \"email\": \"hey.jas.2024@gmail.com\",\r\n    \"nombres\": \"Samuel Oswaldo\",\r\n    \"apellidoP\": \"Herrera\",\r\n    \"apellidoM\": \"Yañez\",\r\n    \"fechaCreacion\": \"2024-09-30T16:19:03\",\r\n    \"estado\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/clientes/registrarCliente",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"clientes",
+						"registrarCliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ModificarUnCliente",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\": \"hey.jas.2024\",\r\n    \"password\": \"1234567\",\r\n    \"email\": \"hey.jas.2024@gmail.com\",\r\n    \"nombres\": \"Jassiel Jaime\",\r\n    \"apellidoP\": \"Herrera\",\r\n    \"apellidoM\": \"Yañez\",\r\n    \"fechaCreacion\": \"2024-09-30T16:19:03\",\r\n    \"estado\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/clientes/modificarCliente",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"clientes",
+						"modificarCliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BorrarUnCLiente",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/clientes/borrarCliente?userName=hey.jas.2024",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"clientes",
+						"borrarCliente"
+					],
+					"query": [
+						{
+							"key": "userName",
+							"value": "hey.jas.2024"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CarritoPorUsuario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/carrito/carritoDelUsuario?userName=sos.dan.2024",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"carrito",
+						"carritoDelUsuario"
+					],
+					"query": [
+						{
+							"key": "userName",
+							"value": "sos.dan.2024"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AgregarArticulo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "userName",
+							"value": "sos.dan.2024",
+							"type": "text"
+						},
+						{
+							"key": "sku",
+							"value": "YAK001CER",
+							"type": "text"
+						},
+						{
+							"key": "cantidad",
+							"value": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/carrito/agregarArticulo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"carrito",
+						"agregarArticulo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ModificarArticulo",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "userName",
+							"value": "sos.dan.2024",
+							"type": "text"
+						},
+						{
+							"key": "sku",
+							"value": "YAK001CER",
+							"type": "text"
+						},
+						{
+							"key": "cantidad",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/carrito/modificarArticulo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"carrito",
+						"modificarArticulo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BorrarArticulo",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/carrito/eliminarArticulo?userName=sos.dan.2024&sku=YAK001CER",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"carrito",
+						"eliminarArticulo"
+					],
+					"query": [
+						{
+							"key": "userName",
+							"value": "sos.dan.2024"
+						},
+						{
+							"key": "sku",
+							"value": "YAK001CER"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EliminarCarrito",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/carrito/eliminarCarrito?userName=sos.dan.2024",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"carrito",
+						"eliminarCarrito"
+					],
+					"query": [
+						{
+							"key": "userName",
+							"value": "sos.dan.2024"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MisCompras",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/compras/misCompras?userName=ria.edg.2024",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"compras",
+						"misCompras"
+					],
+					"query": [
+						{
+							"key": "userName",
+							"value": "ria.edg.2024"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CompraPorFolio",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/compras/miCompra?folio=YCRIA20241012001105",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"compras",
+						"miCompra"
+					],
+					"query": [
+						{
+							"key": "folio",
+							"value": "YCRIA20241012001105"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
